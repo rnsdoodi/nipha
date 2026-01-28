@@ -7,7 +7,7 @@ st.set_page_config(page_title="Nipah Update - Palakkad", layout="wide")
 col_logo, col_text = st.columns([1, 5])
 with col_logo:
     # يمكنك استبدال الرابط بأي صورة شعار محلية أو رابط مباشر
-    st.image("3.JPG", width=150)
+    st.image("3.jpg", width=150)
 
 with col_text:
     st.title("Nipah Virus Update: Palakkad Case & Response")
@@ -68,4 +68,5 @@ with st.expander(" High-Level Coordination"):
 
 # تذييل الصفحة
 st.caption("Information based on the official statement from the Information & Public Relations Department - Government of Kerala.")
+
 
