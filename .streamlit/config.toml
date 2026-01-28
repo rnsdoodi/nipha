@@ -1,1 +1,16 @@
+[theme]
+# اللون الأساسي (للخطوط تحت العناوين والأزرار)
+primaryColor = "#D2C1B6" 
 
+# لون الخلفية الرئيسية للصفحة
+backgroundColor = "#F6F6F6"
+
+
+# لون الصناديق (Containers) والـ Sidebar
+secondaryBackgroundColor = "#A2D5C6"
+
+# لون الخط الرئيسي
+textColor = "#000000"
+
+# نوع الخط
+font = "Georgia"
