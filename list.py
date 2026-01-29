@@ -6,6 +6,7 @@ pages = {
     "Overview": [
         st.Page("dash1.py", title="Nipah Virus NiV - WHO"),
         st.Page("dash2.py", title="Nipah Virus NiV - PRD Kerala"),
+        st.Page("dash4.py", title="Nipah Virus NiV - BioPerfectus"),
     ],
     "Diagnosis Statistics": [
         st.Page("app.py", title=" Kerala Communicable Diseases Analysis"),
@@ -34,5 +35,6 @@ with st.sidebar:
 
 pg = st.navigation(pages)
 pg.run()
+
 
 
