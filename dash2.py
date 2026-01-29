@@ -14,6 +14,16 @@ with col_text:
 
 st.divider()
 
+st.subheader("📥 Download Resources")
+
+with open("IDSP-Daily-Report.pdf", "rb") as file:
+    st.download_button(
+        label="Download Official Situation Report (PDF)",
+        data=file,
+        file_name="Kerala_Nipah_Report_2025.pdf",
+        mime="application/pdf"
+    )
+
 # قسم تفاصيل الحالة الجديدة (New Case Details)
 st.header(" Latest Case Announcement")
 st.info("""
@@ -68,5 +78,6 @@ with st.expander(" High-Level Coordination"):
 
 # تذييل الصفحة
 st.caption("Information based on the official statement from the Information & Public Relations Department - Government of Kerala.")
+
 
 
