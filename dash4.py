@@ -8,7 +8,7 @@ st.set_page_config(page_title="BioPerfectus | Nipah Update 2026", layout="wide")
 col_logo, col_about = st.columns([1, 4])
 with col_logo:
     # يمكنك وضع رابط شعار الشركة هنا
-    st.image(r"C:\Users\rnsdo\OneDrive\Attachments\Desktop\Python and Microsoft Certificatse\cisco networking academy\My projects\NIPAH VIRUS\5.png", width=100)
+    st.image("5.png", width=100)
 
 with col_about:
     st.title("BioPerfectus: Leading Molecular Diagnostics")
@@ -68,3 +68,4 @@ st.warning(" **Data Scarcity Warning:** Statistical analysis for early-stage out
 
 # تذييل الصفحة
 st.caption("© 2026 BioPerfectus. Supporting Global Health through Molecular Innovation.")
+
